@@ -1,0 +1,88 @@
+/****showcase****/
+
+
+
+#showcase
+{
+	margin:0px;
+	width:100%;
+	min-height:200px;
+	background-image:url(table-home.jpg);
+	background-repeat:no-repeat;
+	border-radius:5px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	overflow:auto;
+}
+
+#showcase .matter-home
+{
+	text-align:center;
+    width:60%;
+	margin:0px auto;
+}
+
+.matter-home h1
+{
+	margin-top:200px;
+	font-size:115%;
+	color:white;
+}
+
+.matter-home p
+{
+	color:white;
+	font-size:105%;
+	margin-top:5px;
+		margin-bottom:100px;
+}
+
+
+
+/***boxes***/
+
+.boxes h1
+{
+	text-align:center;
+}
+
+.box
+{
+	margin:15px;
+	width:335px;
+	border:2px solid black;
+	border-radius:5px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	float:left;
+}
+
+.box img
+{
+	height:40vh;
+	width:50%;
+	margin:20px;
+}
+
+.box p,h2
+{
+	text-align:center;
+}
+
+
+
+@media(max-width:600px)
+{
+	.matter-home h1
+	{
+		margin-top:100px;
+	}
+	
+	.box
+	{
+		
+		float:none;
+		margin:15px auto;
+		
+	}
+}

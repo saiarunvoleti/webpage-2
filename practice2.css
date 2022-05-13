@@ -1,0 +1,177 @@
+body
+{
+	margin:0;
+	padding:0;
+	font:16px 1.5px georgia,arial,verdana,calibri,courier;
+	background-color:#F0FFFF;
+}
+
+
+.container
+{
+	width:90%;
+	margin:0 auto;
+}
+
+
+/***header***/
+
+
+header
+{
+	padding:0px;
+	margin:0px auto;
+	margin-top:10px;
+	background-color:lime;
+	border:1px solid aqua;
+	width:100%;
+	min-height:80px;
+	border-radius:5px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	overflow:auto;
+}
+
+
+header .logo
+{
+	float:left;
+	padding-bottom:5px;
+}
+
+/*header .logo h1
+{
+	margin-left:10px;
+}*/
+
+ #designlogo
+{
+	color:red;
+	font-size:105%;
+}
+
+header .navbox
+{
+	float:right;
+}
+
+header ul
+{
+	list-style:none;
+}
+
+header ul li
+{
+	text-decoration:none;
+	display:inline;
+	float:left;
+	padding:10px 20px 10px 0px;
+}
+
+header ul li a
+{
+	text-decoration:none;
+	color:red;
+	font-size:110%;
+	
+}
+
+header ul li a:hover
+{
+	color:white;
+}
+
+
+
+
+
+/***newsletter***/
+
+
+#newsletter
+{
+	background: orange;
+	border-radius:5px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+}
+
+#newsletter h1
+{
+	float:left;
+}
+
+#newsletter form
+{
+	float:right;
+	margin-top:20px;
+}
+
+#newsletter input[type=email]
+{
+	width:150px;
+	height:5%;
+	background:black;
+	border-radius:10px;
+	margin-right:5px;
+	color:white;
+}
+
+#newsletter .button
+{
+	padding:5px;
+	border-radius:5px;
+}
+
+
+
+
+
+
+/**footer**/
+
+.footer
+{
+	float:left;
+	clear:left;
+	width:100%;
+	min-height:50px;
+	background-color:lime;
+	border-radius:5px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	overflow:auto;
+}
+
+
+
+
+/***mediaqueries***/
+@media(max-width:600px)
+{
+	header .logo,
+	header .navbox,
+	header ul li,
+	#newsletter h1 ,
+	#newsletter form,
+	.footer p
+	{
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:5px;margin-bottom:5px;
+		padding:0px 10px 0px 0px;
+		text-align:center;
+	}
+	
+	
+	header ul,
+	header .logo h1
+	{
+		text-align:center;
+	}
+}
